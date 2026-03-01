@@ -136,7 +136,7 @@ Das zweite Verfahren ist technisch deutlich fortschrittlicher, schnitt jedoch in
 Das Projekt zeigt deutlich: Neu ist nicht automatisch besser 
 
 
-# **Kritik und Grenten des Projekts**
+# **Kritik und Grenzen des Projekts**
 
 **Grenzen der Daten**
 
