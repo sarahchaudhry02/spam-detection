@@ -143,6 +143,12 @@ Insgesamt können diese Daten nur verwendet werden, um die Modelle zu miteinande
 **Rechenkosten und Latenz**
 Der Transformer beraucht eine GPU und viel Zeit für die Embeddings. In der Realen Welt spielt Effizienz aber eine wichtige Rolle
 
+# **Für Reproduzierbarkeit**
 
+1. Repository klonen
+2. virtuelle Umgebund erstellen mit "python -m venv venv"
+3. Abhängigkeiten erstellen "pip install -r requirements.txt"
+
+Tipp: Falls es auf Jupyter Notebook nicht klappt empfehle ich Google Colab
 
 
