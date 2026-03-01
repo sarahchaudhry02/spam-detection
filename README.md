@@ -101,7 +101,7 @@ zur visuellen Kontrolle der Fehlklassifikationen.
 
 # **Ergebnisse**
 
-Im Folgenden werden die Ergebnisse grafisch aufbereitet dargestellt. Dabei liegt der Fokus auf der Veranschaulichung. Die vollständigen Tabellen mit allen exakten Werten für Training, Validierung und Test können im beigefügten Notebook eingesehen werden.
+Im Folgenden werden die Ergebnisse grafisch aufbereitet dargestellt. Dabei liegt der Fokus auf der Veranschaulichung. Die vollständigen Tabellen und alle exakten Werten für Training, Validierung und Test sind in beigefüten Notebook unter main/notebook/... im Abschnitt "Metriken" einsehbar.
 
 **EDA Verteilung der Mails in Daten**
 
