@@ -127,7 +127,9 @@ Es gibt handvolle Anzahl False Positives und True Positives
 <img width="855" height="479" alt="download-1" src="https://github.com/user-attachments/assets/b00579c4-d135-4702-97fe-4c4c52abc1c7" />
 In allen benutzen Metriken liegt das erste Verfahren vorne, jedoch liegt das zweite Verfahren nicht weit hinten und hat immer noch gut Werte.
 
-**Interpreation??**
+
+
+**Interpreation**
 
 Insgesamt konnte das erste Verfahren durch herausragende Effizienz und Treffsicherheit überzeugen.  Besonders hervorzuheben ist die extrem geringe Rate an False Positives. Jedoch bleibt zu beachten, dass dieses Modell ein reiner „Wortzähler“ ist. Es erkennt statistische Auffälligkeiten zwar perfekt, stößt aber an seine Grenzen, sobald Spam-Inhalte keine klassischen Signalwörter enthalten oder semantisch geschickt getarnt sind. 
 
