@@ -1,4 +1,4 @@
-# **Spam Detection: Ein Vergleich zwischen Klassischen und Moderernen Ansatz**
+# **Spam Detection: Ein Vergleich zwischen klassischem und moderernem Ansatz**
 
 Dieses Projekt untersucht zwei grundlegend verschiedene Ansätze der Textklassifizierung, um Spam-Mails zu identizfizieren. 
 **Einen klassischen statistischen Ansatz:**
@@ -141,6 +141,7 @@ In der Realität wandelt sich Spam täglich. Spammer entwickeln ständig kreativ
 Insgesamt können diese Daten nur verwendet werden, um die Modelle zu miteinander zu vergleichen und keinen realen Spam-Detector zu implmentieren.
 
 **Rechenkosten und Latenz**
+
 Der Transformer beraucht eine GPU und viel Zeit für die Embeddings. In der Realen Welt spielt Effizienz aber eine wichtige Rolle
 
 
