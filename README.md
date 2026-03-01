@@ -1,9 +1,13 @@
 # **Spam Detection: Ein Vergleich zwischen klassischem und moderernem Ansatz**
 
 Dieses Projekt untersucht zwei grundlegend verschiedene Ansätze der Textklassifizierung, um Spam-Mails zu identizfizieren. 
+
 **Einen klassischen statistischen Ansatz:**
+
 Bag-of-Words mit Naive Bayes.
+
 **Einen modernen NLP-Ansatz:**
+
 Sentence-Transformer mit logistischer Regression
 
 
