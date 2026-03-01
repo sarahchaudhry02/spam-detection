@@ -129,7 +129,7 @@ In allen benutzen Metriken liegt das erste Verfahren vorne, jedoch liegt das zwe
 
 
 
-#Interpreation
+# Interpreation
 
 Insgesamt konnte das erste Verfahren durch herausragende Effizienz und Treffsicherheit überzeugen.  Besonders hervorzuheben ist die extrem geringe Rate an False Positives. Jedoch bleibt zu beachten, dass dieses Modell ein reiner „Wortzähler“ ist. Es erkennt statistische Auffälligkeiten zwar perfekt, stößt aber an seine Grenzen, sobald Spam-Inhalte keine klassischen Signalwörter enthalten oder semantisch geschickt getarnt sind. 
 
