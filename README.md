@@ -10,6 +10,10 @@ und einen modernen Deel-Learnung-Ansatz:
 Das Ziel ist der Aufbau .. vom Modellen und dabei liegt der Fokus auf dem Vergleich dieser Modelle.
 Dabei wird gepürft ob das moderne Modell einen signifikanten Mehrwert als das statistische Modell liefert.
 
+**Repository struktur**
+
+
+
 # **Daten preperation**
 
 **Quelle**: 
@@ -62,7 +66,7 @@ Dieses Verfahren erkennt  Spam auch wenn keine klassisische Signalwörter vorkom
 # **Metriken**
 
 **Accuracy**
-wurde bewusst weggelassen da andere metriken aussagekräftiger sind
+wurde bewusst weggelassen da aufgrund der imbalance (siehe eda) andere metriken aussagekräftiger sind
 
 **Matthews Correlation Coefficient (MCC)**
 Datensätze sind oft imbalanciert. Der MCC bewertet die Vorhersagequalität beider Klassen gleichermaßen und wurde deswegen zum vergleichen benutzt.
@@ -80,20 +84,42 @@ Damit wird ermittelt, wie viele von den echten Spam Nachrichten erkannt wurden.
 # **Ergebnisse**
 Im folgenden Verlauf werden die graphische Darstellungen vorgestellt. Diese sind aber nur eine Zusammenfassung, da diese reichen um das allgemine Muster zu erkennen. Die genauen Werte für train validation und testset sind im notebook zu finden.
 
+**EDA Verteilung der Mails in Daten**
+
+<img width="715" height="479" alt="download-2" src="https://github.com/user-attachments/assets/c6c0b528-8255-4ad5-9623-6e62a041d203" />
+
+Dieses Diagramm zeigt eine klare imbalance. Es sind deutlich mehr Nicht-Spam als Spams vorhanden.
+
 **Confusion-Matrix für Verfahren 1**
 
 <img width="1240" height="484" alt="Verfahren-1" src="https://github.com/user-attachments/assets/f70c4135-e188-42f8-b7d4-dfbbe1200e73" />
 
-**Confusion-Matrix für Verfahren 1**
+Es gibt 0 bis 1 False Positives und auch nur eine handvolle Fale Negatives
+
+
+**Confusion-Matrix für Verfahren 2**
 
 <img width="1240" height="484" alt="Verfahren-2" src="https://github.com/user-attachments/assets/71b411ad-a8bc-4156-911f-22baf0375d2a" />
 
+Es gibt handvolle Anzahl False Positives und True Positives
 
 **Balkendiagramm der Metriken für Testset**
 
 <img width="855" height="479" alt="download-1" src="https://github.com/user-attachments/assets/b00579c4-d135-4702-97fe-4c4c52abc1c7" />
+In allen benutzen Metriken liegt das erste Verfahren vorne, jedoch liegt das zweite Verfahren nicht weit hinten und hat immer noch gut Werte.
+
+weiter..
 
 
+# **Kritik und Grenten des Projekts**
+
+**Grenzen der Daten**
+
+Auch wenn im Datensatz viele Daten enhalten waren, ist es nur ein statistischer Snapshopt von Kaggle. In der Realen Welt, ändert sich Spam tagtäglich, da die versendet bewusst sind, dass Spam versucht sich abzufangen. Es kommt immer zu neurerne krestiveren ideen die spam erkennung umgehen sollen (Bsp nennen)
+
+**Rechenkosten und Latenz**
+Der Transformer beraucht eine GPU und viel Zeit für die Embeddings. In der Realen Welt spielt Effizienz aber eine wichtige Rolle
+
+# **Quellen**
 
 
-visualiseurng
