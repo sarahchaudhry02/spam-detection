@@ -1,7 +1,0 @@
-# Verfahren: BAG OF WORDS MIT NAIVE BAYERS
-
-# Imports
-import sklearn
-
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import CountVectorizer
